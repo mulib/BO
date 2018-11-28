@@ -1,0 +1,29 @@
+{
+    "routes": [{
+            "path": "/guest",
+            "component": "MainPublicLayout",
+            "routes": [{
+                    "path": "/guest/login",
+                    "component": "Login"
+                },
+                {
+                    "path": "/guest/register",
+                    "component": "Register"
+                }
+            ]
+        },
+        {
+            "path": "/auth",
+            "component": "MainLayout",
+            "routes": [{
+                    "path": "/auth/users",
+                    "component": "Login"
+                },
+                {
+                    "path": "/auth/add-user",
+                    "component": "AddUser"
+                }
+            ]
+        }
+    ]
+}
